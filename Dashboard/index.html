@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ResilioNet AI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🌉 RESILIONET AI</h1>
+
+        <p class="subtitle">
+            Smart Bridge Health Monitoring System
+        </p>
+
+        <div id="clock"></div>
+
+        <div class="bridge-info">
+
+<h3>🌉 Bridge Information</h3>
+
+<p><b>Bridge Name:</b> Durgam Cheruvu</p>
+
+<p><b>Location:</b> Hyderabad</p>
+
+<p><b>Bridge ID:</b> RSN-001</p>
+
+<p><b>System Status:</b> 🟢 ONLINE</p>
+
+<p><b>WiFi Status:</b> 📶 CONNECTED</p>
+
+<p><b>Project Version:</b> V1.0</p>
+
+</div>
+
+        
+        <div class="dashboard">
+
+            <div class="card">
+                <h2>🌡 Temperature</h2>
+                <h3 id="temp">31°C</h3>
+            </div>
+
+            <div class="card">
+                <h2>💧 Water Level</h2>
+                <h3 id="water">42%</h3>
+            </div>
+
+            <div class="card">
+                <h2>📳 Vibration</h2>
+                <h3 id="vibration">LOW</h3>
+            </div>
+
+            <div class="card">
+                <h2>⚖ Structural Load</h2>
+                <h3 id="load">120g</h3>
+            </div>
+
+            <div class="card">
+                <h2>🤖 AI Risk Score</h2>
+                <h3 id="risk">12%</h3>
+            </div>
+
+            
+            <div class="card status">
+                <h2>✅ Bridge Status</h2>
+                <h3 id="statusText">SAFE</h3>
+            </div>
+
+          
+
+        </div>
+
+       <div class="alert safe" id="riskBannerBox">
+    <h2 id="riskBanner">NO RISK DETECTED</h2>
+</div>
+
+        <div class="bridge-info">
+
+<h3>🤖 AI Recommendation</h3>
+
+<p id="rec1">✅ Structure Stable</p>
+<p id="rec2">✅ Water Level Safe</p>
+<p id="rec3">✅ Traffic Flow Normal</p>
+<p id="rec4">✅ No Immediate Risk</p>
+
+</div>
+
+
+<div class="bridge-info">
+
+    <h3>🚨 Emergency Alerts</h3>
+
+    <p id="alertMessage">✅ No Active Alerts</p>
+
+</div>
+
+<div class="bridge-info">
+
+    <h3>📡 Sensor Status</h3>
+
+    <p id="sensor1">🟢 Temperature Sensor Connected</p>
+
+    <p id="sensor2">🟢 Water Sensor Connected</p>
+
+    <p id="sensor3">🟢 Vibration Sensor Connected</p>
+
+    <p id="sensor4">🟢 Load Sensor Connected</p>
+
+    <p id="sensor5">🟢 ESP32 Online</p>
+
+</div>
+
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>

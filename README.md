@@ -94,7 +94,7 @@ ResilioNet AI integrates IoT sensors, AI-based risk analysis, and a live web das
 
 - M. Akshay (N25H03A0095)
 - M. Anil (N25H03A0280)
-- L. Sai ThArun (N25H03A0001)
+- L. Sai Tharun (N25H03A0001)
 - MD. Khairuddin (N25H03A0108)
 ---
 
@@ -115,13 +115,11 @@ ResilioNet AI integrates IoT sensors, AI-based risk analysis, and a live web das
 
 ---
 
-https://drive.google.com/file/d/1-GF2EEPDD6htWy11QVpr-tNJjzSkILVy/view?usp=sharing
+Project explanation: https://drive.google.com/file/d/1-GF2EEPDD6htWy11QVpr-tNJjzSkILVy/view?usp=sharing
 
 
 📡 Live Dashboard
 https://resilionet-ai.onrender.com
 
-💻 GitHub Repository
-https://github.com/akshaymatlapelly-rgb/ResilioNet_AI
 
 ### Building Smarter Bridges for a Safer Tomorrow 🌉
